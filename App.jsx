@@ -7,7 +7,7 @@ const CalendarApp = () => {
   const [scheduleData, setScheduleData] = useState({});
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [selectedDateKey, setSelectedDateKey] = useState(null);
-  const [customTitle, setCustomTitle] = useState('行事曆'); // State for custom title
+  const [customTitle, setCustomTitle] = useState('伸動保健室預約月曆'); // State for custom title
   
   const exportRef = useRef(null); // Ref for the wrapper to export
   
